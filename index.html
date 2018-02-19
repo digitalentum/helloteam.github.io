@@ -187,5 +187,22 @@
 
 		  gtag('config', 'UA-114316334-2');
 		</script>
+
+		<script>
+			function gtag_report_conversion(url) {
+			  var callback = function () {
+				if (typeof(url) != 'undefined') {
+				  window.location = url;
+				}
+			  };
+			  gtag('event', 'conversion', {
+				  'send_to': 'AW-816657443/eCooCIK6x30Qo-i0hQM',
+				  'event_callback': callback
+			  });
+			  return false;
+			}
+		</script>
+
+
     </body>
 </html>

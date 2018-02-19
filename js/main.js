@@ -38,6 +38,7 @@
 						                 '<h2 class="text-light">Sikeresen felvettünk az Early Bird listára!</h2>' + 
 										 '</div>');
 						container.fadeIn();
+						gtag_report_conversion();
 					}
 				});
 			}
